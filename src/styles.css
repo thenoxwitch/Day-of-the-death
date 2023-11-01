@@ -101,6 +101,10 @@ main h2 {
   opacity: 0.4;
 }
 
+.map {
+  max-width: 300px;
+  text-align: center;
+}
 .img-responsive:hover {
   opacity: 1.9;
 }
