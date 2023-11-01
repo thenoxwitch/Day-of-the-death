@@ -113,10 +113,41 @@ main h2 {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+  background: rgb(0, 0, 0, 0.6);
+  margin: 10px 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  padding: 0 20px 20px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #000000;
+  text-decoration: none;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+section.secondary {
+  background: var(--third-color);
 }
 
 main h3 {
@@ -129,7 +160,7 @@ main h3 {
 
 main p {
   font-style: normal;
-  width: 400px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -208,5 +239,13 @@ a {
 
   .img-responsive:hover {
     opacity: none;
+  }
+
+  .img-responsive {
+    width: 250px;
+  }
+
+  .info {
+    width: 200px;
   }
 }
