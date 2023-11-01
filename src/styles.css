@@ -79,7 +79,7 @@ header a {
 }
 
 main {
-  background-color: rgb(0, 0, 0);
+  background-color: var(--first-color);
 }
 
 main h2 {
@@ -101,9 +101,20 @@ main h2 {
   opacity: 0.4;
 }
 
+.img-card {
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+
+  opacity: 0.4;
+}
+
 .map {
   max-width: 300px;
-  text-align: center;
+  margin: 0 auto;
+  display: block;
+  height: 200px;
 }
 .img-responsive:hover {
   opacity: 1.9;
@@ -120,6 +131,7 @@ main h2 {
 .card {
   background: rgb(0, 0, 0, 0.6);
   margin: 10px 0;
+  width: 100%;
 }
 
 .card-body {
@@ -140,7 +152,7 @@ main h2 {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #000000;
+  background-color: var(--first-color);
   text-decoration: none;
 }
 
@@ -247,9 +259,30 @@ a {
 
   .img-responsive {
     width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .img-card {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+
+    opacity: 0.4;
   }
 
   .info {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .info-title {
+    text-align: center;
+  }
+
+  .map {
     width: 200px;
   }
 }
