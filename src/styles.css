@@ -74,6 +74,52 @@ header a {
   background: var(--third-color);
 }
 
+main {
+  background-color: rgb(0, 0, 0);
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: var(--fourth-color);
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+.img-responsive {
+  width: 450px;
+
+  border-radius: 8px;
+  margin: 30px;
+
+  opacity: 0.4;
+}
+
+.img-responsive:hover {
+  opacity: 1.9;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: var(--fourth-color);
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--fourth-color);
+  opacity: 0.7;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 1.9), rgba(70, 41, 20, 0.897)),
@@ -133,5 +179,14 @@ a {
 
   footer {
     font-size: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
