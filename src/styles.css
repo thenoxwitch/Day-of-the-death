@@ -205,4 +205,8 @@ a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
+
+  .img-responsive:hover {
+    opacity: none;
+  }
 }
