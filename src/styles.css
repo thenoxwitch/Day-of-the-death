@@ -1,4 +1,89 @@
-h1 {
+:root {
+  --first-color: #000000;
+
+  --second-color: #393e46;
+
+  --third-color: #dd813b;
+
+  --fourth-color: #f2f2f2;
+}
+
+body {
   font-family: "Poppins", sans-serif;
-  font-weight: 800px;
+  background: var(--first-color);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 270px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 10px 0;
+  opacity: 0.5;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  border-radius: 6px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: var(--third-color);
+}
+
+footer {
+  text-align: center;
+  color: var(--fourth-color);
+}
+
+a {
+  color: var(--third-color);
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
 }
